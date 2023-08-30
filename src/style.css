@@ -25,7 +25,7 @@ body {
   flex-wrap: wrap;
 }
 
-.test {
+.square {
   width: 20%; /* 100 / grid number */
   height: 20%;
   padding: 0;
