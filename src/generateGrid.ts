@@ -1,4 +1,7 @@
+import emptyGrid from "./emptyGrid.ts";
+
 const generateGrid = (dimension: number, selector: string) => {
+  emptyGrid(selector);
   const gridContainer = document.querySelector(selector) as HTMLDivElement;
   const squareSize: number = 100 / dimension;
 
