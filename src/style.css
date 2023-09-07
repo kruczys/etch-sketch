@@ -57,11 +57,11 @@ body {
 #size-change > span {
   font-size: 1.5em;
 }
-#change-size-button {
+#size-change > button {
   background-color: #f0e2b9;
   border: solid red 2px;
   color: red;
-  height: 20%;
+  height: 30%;
   width: 60%;
   font-size: 1em;
 }
@@ -85,7 +85,7 @@ body {
   width: 1em;
   margin: 0;
   margin-left: 4px;
-  margin-top: 3px;
+  margin-top: 4px;
 }
 
 .mode-change-button {

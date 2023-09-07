@@ -1,5 +1,6 @@
 import paintItRandomRGB from "./paintItRandomRGB.ts";
 import paintItBlack from "./paintItBlack.ts";
+import paintItDarkening from "./paintItDarkeningEffect.ts";
 
 const setMode = (chosenMode: string) => {
   const pixels = document.querySelectorAll(".pixel");
@@ -9,6 +10,9 @@ const setMode = (chosenMode: string) => {
       break;
     case "black-mode":
       paintItBlack(pixels);
+      break;
+    case "darkening-mode":
+      paintItDarkening(pixels);
       break;
     default:
       paintItBlack(pixels);
