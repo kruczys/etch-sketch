@@ -5,6 +5,7 @@ const paintItRandomRGB = (pixels: NodeList) => {
     pixel.addEventListener("mouseover", (e: Event) => {
       (e.target as HTMLDivElement).style.backgroundColor =
         generateRandomColor();
+      (e.target as HTMLDivElement).style.opacity = "1.0";
     });
   });
 };
