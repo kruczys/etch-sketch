@@ -1,4 +1,5 @@
 "use strict";
+var exports = {};
 Object.defineProperty(exports, "__esModule", { value: true });
 var generateGrid_1 = require("./generateGrid");
 var changeMode_1 = require("./changeMode");
