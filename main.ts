@@ -1,5 +1,5 @@
-import generateGrid from "./generateGrid.ts";
-import setMode from "./changeMode.ts";
+import generateGrid from "./generateGrid";
+import setMode from "./changeMode";
 
 let startDimension = 10;
 const sizeChangeButton = document.querySelector("#change-size-button");
