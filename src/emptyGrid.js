@@ -1,5 +1,5 @@
-const emptyGrid = (selector: string) => {
-  const gridContainer = document.querySelector(selector) as HTMLDivElement;
+const emptyGrid = (selector) => {
+  const gridContainer = document.querySelector(selector);
 
   while (gridContainer.firstChild) {
     gridContainer.removeChild(gridContainer.firstChild);
