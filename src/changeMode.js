@@ -1,6 +1,6 @@
-import paintItRandomRGB from "./paintItRandomRGB";
-import paintItBlack from "./paintItBlack";
-import paintItDarkening from "./paintItDarkeningEffect";
+import paintItRandomRGB from "./paintItRandomRGB.js";
+import paintItBlack from "./paintItBlack.js";
+import paintItDarkening from "./paintItDarkeningEffect.js";
 
 const setMode = (chosenMode) => {
   const pixels = document.querySelectorAll(".pixel");

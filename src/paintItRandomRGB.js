@@ -1,4 +1,4 @@
-import generateRandomColor from "./generateRandomRGB";
+import generateRandomColor from "./generateRandomRGB.js";
 
 const paintItRandomRGB = (pixels) => {
   pixels.forEach((pixel) => {

@@ -1,4 +1,4 @@
-import emptyGrid from "./emptyGrid";
+import emptyGrid from "./emptyGrid.js";
 
 const generateGrid = (dimension, selector) => {
   emptyGrid(selector);
