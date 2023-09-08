@@ -28,6 +28,8 @@ const rainbowModeInput = document.querySelector("#random-rgb");
 const blackModeInput = document.querySelector("#black-mode");
 const darkeningModeInput = document.querySelector("#darkening-mode");
 
+rainbowModeInput.checked = true;
+
 rainbowModeInput.addEventListener("click", () => {
   currMode = "random-rgb";
   setMode(currMode);
